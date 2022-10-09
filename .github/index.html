@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My first website</title>
+  </head>
+  <body>
+    <h1>Hello world!</h1>
+    <p>Welcome to my first website.</p>
+    <h2>Web Security</h2>
+    <p id="web-security-question">How would you advise a potential client to secure his/her website from web security attacks? Note: the word count for your answer should not be greater than 250 words</p>
+    <p id="web-security-answer">First, there's always a tradeoff between practicality and security. So a different solution is appropriate depending on the client's needs. Considering the client's business is for average use, one can take some steps.
+
+
+        Preventative actions against XSS Attacks. XSS(Cross-site scripting) attacks are performed by injecting javascript code into form data, URL parameters, search fields, or comment sections. A way to protect against this is to filter out unwanted inputs by excluding characters, etc. One can also implement an automated time-out despite having cookie log-in data available. 
+        
+         SQL injection attacks the database rather than through script, and to protect against SQL injections, one should use parameterized statements whenever possible. This makes sure that the driver correctly interprets the data, and that is not constructed before it is invoked. 
+        
+        Protection against cross-site request forgery is tricky as it often involves social engineering, which is the most challenging form of attack to defend against. Some base rules still apply, like never giving your password away and never giving administrator rights to someone else.
+        
+        One should use a CI/CD to check for malicious code before it's published, for example GitHub Action. As well as sanitization packages to make sure that the data is in the correct format. </p>
+  </body>
+</html>
